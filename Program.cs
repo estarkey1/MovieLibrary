@@ -42,7 +42,7 @@ class Program
         Console.Write("Title: ");
         string title = Console.ReadLine();
 
-        Console.Write("Genres (comma-separated): ");
+        Console.Write("Genres (Seperate with a |): ");
         string genres = Console.ReadLine();
 
         var movie = new Movie { MovieId = movieId, Title = title, Genres = genres };
